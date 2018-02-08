@@ -1,3 +1,15 @@
 page-register {
+    ion-content{
+        background: color($colors,"energy") !important;
+    }
 
+    ion-item{
+        background: color($colors,"energy") !important;
+        ion-label{
+            -webkit-text-fill-color: color($colors,"dark");
+        }
+    }
+    .icon{
+        padding-right: 5px;
+    }
 }
