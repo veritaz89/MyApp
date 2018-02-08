@@ -1,4 +1,7 @@
 page-login {
+    ion-title{
+        text-align: center !important;
+    }
     ion-content{
         background: color($colors,"energy") !important;
     }
@@ -8,6 +11,9 @@ page-login {
         ion-label{
             -webkit-text-fill-color: color($colors,"dark");
         }
+    }
+    .icon{
+        padding-right: 5px;
     }
     
 }

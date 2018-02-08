@@ -1,4 +1,7 @@
 page-welcome {
+    ion-title{
+        text-align: center !important;
+    }
     #welcome{
         background-color: color($colors,"energy");
         h1{

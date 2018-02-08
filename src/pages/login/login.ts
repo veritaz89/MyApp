@@ -22,4 +22,7 @@ export class LoginPage {
     console.log('ionViewDidLoad LoginPage');
   }
 
+  login(){
+    this.navCtrl.setRoot('HomePage');
+  }
 }
